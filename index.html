@@ -41,11 +41,11 @@
                     <!-- Add form element  -->
                     <form>
                         <label for= "name"> Enter full name:</label>
-                        <input type = "text" placeholder = "Your Name" name="name" id="name" />
+                        <input type = "text" placeholder = "Your Name" name="name" id="name" class="form-input" />
                         <label for="email"> Enter email address:</label>
-                        <input type= "email" placeholder = "Email Address" name="email" id=email/>
+                        <input type= "email" placeholder = "Email Address" name="email" id="email" class="form-input"/>
                         <label for= "phone"> Enter a telephone number:</label>
-                        <input type="tel" placeholder = "Phone Number" name= "phone"  id= "phone"/>
+                        <input type="tel" placeholder = "Phone Number" name= "phone"  id= "phone" class="form-input"/>
                         <p>
                             Have you worked out with a trainer before?
                             <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -72,22 +72,49 @@
 
 
         <!-- "what we do" section -->
-        <section>
-            <h2>What We Do</h2>
+        <section id="what-we-do" class="intro">
+            <h2 class="section-title primary-border">What We Do</h2>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur provident ex adipisci optio quos. Nihil dignissimos, dolorem excepturi corporis provident illum veniam et distinctio ullam consequatur minus quod totam? Ea.
+            </p>
         </section>
 
         <!-- "what you do" section -->
-        <section>
-            <h2>What You Do</h2>
+        <section id="what-you-do" class="steps">
+            <h2 class="section-title secondary-border">What You Do</h2>
+
+            <div>
+                <img src="./assets/images/step-1.svg" alt="" />
+                <h3>Step 1:<span> Fill Out the Form Above.</span></h3>
+                <p>You're already here, so why not?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-2.svg" alt="" /> 
+                <h3>Step 2: <span>Consult with One of Our Trainers</span></h3>
+                <p>Are you here to build muscle, lose weight, or just feel good?</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-3.svg" alt=""/>
+                <h3>Step 3: <span> Running.</span></h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan</p>
+            </div>
+
+            <div>
+                <img src="./assets/images/step-4.svg" alt=""/>
+                <h3>Step 4: <span>See Results.</span></h3>
+                <p>Bi-weekly checkins with your trainer will keep you focused</p>
+            </div>
         </section>
 
         <!-- "meet the trainers" section -->
-        <section>
+        <section id="your-trainers">
             <h2>Meet The Trainers</h2>
         </section>
 
         <!-- "reach out" section -->
-        <section>
+        <section id="reach-out">
             <h2>Reach Out</h2>
         </section>
 
